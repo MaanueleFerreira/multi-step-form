@@ -34,6 +34,8 @@ form{
     border-radius: .6rem;
 }
 
+/* STEP PROGRESS */
+
 .step-progress {
     display: flex;
     align-items: center;
