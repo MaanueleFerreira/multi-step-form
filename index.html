@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Titillium+Web:ital,wght@0,700;0;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Formulário Multi Step</title>
 </head>
+
 <body>
 
+    <main id="container">
+        <form>
+            <div class="step-progress">
+                <div class="step-name">
+                    <span class="active done">1</span>
+                    <strong class="active" >Contato</strong>
+                </div>
+                <img src="./assets/seta.svg" alt="progress">
+                <div class="step-name">
+                    <span class="active" >2</span>
+                    <strong class="active">Empresa</strong>
+                </div>
+                <img src="./assets/seta.svg" alt="progress">
+                <div class="step-name">
+                    <span>3</span>
+                    <strong>Projeto</strong>
+                </div>
+            </div>
+        </form>
+    </main>
 
-    
 </body>
+
 </html>
