@@ -43,6 +43,8 @@ form{
 
     border-bottom: 1px solid var(--color-base-gray-100);
     padding-bottom: 3.2rem;
+
+    margin-bottom: 4rem;
 }
 
  .step-name {
@@ -78,4 +80,74 @@ form{
 .step-progress span.done {
     /* content: url(./assets/check.svg); */
     background-color: var(--color-feedback-sucess-color);
+}
+
+/* Inputs */
+.form-data {
+    display: grid;
+    gap: 1.6rem;
+}
+
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.input-wrapper label{
+    color: var(--color-base-gray-400);
+    font-weight: 700;
+}
+
+.input-wrapper input, textarea{
+    width: 100%;
+    padding: 1.6rem;
+    border: 1px solid var(--color-base-gray-100);
+    border-radius: .3rem;
+}
+
+input::placeholder, textarea::placeholder{
+    color: var(--color-base-gray-200);
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.buttons-wrapper{
+    margin-top: 3.2rem;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.button-end{
+justify-content: flex-end;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.6rem 3.2rem;
+    min-width: 15.8rem;
+
+    border: none;
+    border-radius: .6rem;
+
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.primary {
+    background-color: var(--color-produto-purple-mid);
+    color: var(--color-base-white);
+    transition: ease .2s;
+}
+
+.primary:hover{
+    background-color: var(--color-produto-purple-light);
+
+}
+
+.secundary{
+    background-color: var(--color-base-white);
+    color: var(--color-produto-purple-mid);
+    border: 1px solid var(--color-produto-purple-mid);
 }
